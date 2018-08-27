@@ -1,0 +1,271 @@
+/* set styles for body */
+
+html,
+body {
+  height: 100%;
+  background-color: white;
+  padding-top: 3em;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* set background black for the homepage */
+
+.home-body {
+  background-color: black;
+}
+
+
+/* set the style for navbar */
+
+.navbar {
+  background-color: #212121;
+  box-shadow: 0px 2px 10px 1px black;
+}
+
+/* Add your styles below with comments */
+
+
+/* set width for images and tables */
+
+img,
+table {
+  width: 100%;
+}
+
+
+/* set style for social media icon size an margin */
+
+.social-icons {
+  height: 1.5em;
+  width: 1.5em;
+  margin-left: 0.5em;
+}
+
+
+/* Styles for div */
+
+
+/* set div to arrange items horizontally */
+
+.flex-horizontal {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* set div to arrange items vertically and align in center */
+
+.flex-vertical {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+/* set div to fill the empty space between surrounding div's */
+
+.filler {
+  flex: 1;
+}
+
+
+/* set margin from the bottom of the content */
+
+.content {
+  margin-bottom: 2em;
+}
+
+
+/* set div for to take full height of the screen */
+
+.full {
+  min-height: 100%;
+}
+
+
+/* set black background color */
+
+.black {
+  background-color: black;
+}
+
+.footer-div {
+  min-height: 5em;
+  background-color: black;
+  color: #BDBDBD;
+  width: 100%;
+}
+
+
+/* set margins and padding for text content */
+
+.text-box {
+  padding: 1em;
+  margin: 1em;
+  text-align: justify;
+}
+
+
+/* set style for top text-box */
+
+.top {
+  padding-bottom: 2em;
+}
+
+
+/* set style for logo */
+
+.logo {
+  height: 5.0em;
+  width: 5.0em;
+}
+
+
+/* set padding from both side of the item */
+
+.padding {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+/* style for homepage textbox */
+
+.homepage-header-textbox {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2em;
+  border-radius: 0.5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+
+/* Styles for headings */
+
+h1 {
+  color: black;
+  margin: 0;
+}
+
+.home-header {
+  color: #C9AB19;
+}
+.signature-colour {
+color: #C9AB19;
+}
+
+/* set font style for homepage title */
+
+.main {
+  font-family: 'Raleway', sans-serif;
+  font-size: 4em;
+}
+
+
+/* align text in center */
+
+.middle {
+  text-align: center;
+}
+
+
+/* style for button in homepage */
+
+.button-home {
+  margin-top: 2em;
+  background-color: black;
+  border: none;
+  border-radius: 0.5em;
+  color: #C9AB19;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+  margin: 0;
+}
+
+.top-header {
+  text-align: center;
+  padding-top: 1em;
+  color:#C9AB19;
+}
+
+.sub {
+  margin-bottom: 1em;
+}
+
+th,
+td {
+  padding: 1em;
+}
+
+th {
+  height: 2em;
+}
+
+td {
+  width: 2em;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+.table-content {
+  text-align: center;
+}
+
+
+.contact {
+  align-items: flex-start;
+  flex: 0.5;
+}
+
+.contact-input {
+  width: 100%;
+}
+
+/* align paragraph */
+
+.p-service {
+text-align:center;
+}
+
+/* align list */
+.div-service {
+margin-left: 13em;
+margin-right: 13em;
+}
+
+.thirds {
+flex:0.33333333;
+}
+
+.flex-top {
+align-items: flex-start;
+}
+
+.call {
+height: 2em;
+width: 2em;
+margin-left:1em;
+margin-right:1em;}
